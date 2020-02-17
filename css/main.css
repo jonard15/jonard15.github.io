@@ -144,7 +144,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh -60px); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -188,10 +188,10 @@ main {
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
-  .projects:hover {
-    opacity: 0.5;
-    border-color: #0d98ba;
-    transition: all 1.5s ease-out; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #0d98ba;
+      transition: all 1.5s ease-out; }
 
 .boxes {
   display: flex;
@@ -227,12 +227,12 @@ main {
 
 .btn-light {
   background: gray;
-  color: #333; }
+  color: #000; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: black;
+  background: #1a1a1a;
   color: #fff;
   height: 60px; }
 
@@ -267,7 +267,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url();
+      background: url(../img/portrait_small.jpg);
       width: 150px;
       height: 150px; }
   .about-info {
