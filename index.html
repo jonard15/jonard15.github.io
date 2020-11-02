@@ -373,7 +373,7 @@
                 </div>
 
                 <div class="text-center">
-                  <button class="btn u-btn-primary btn-md text-uppercase g-line-height-1 g-font-weight-700 g-font-size-11 rounded-0 g-py-12 g-px-25 mb-0" type="submit" role="button">Send message</button>
+                  <button class="btn u-btn-primary btn-md text-uppercase g-line-height-1 g-font-weight-700 g-font-size-11 rounded-0 g-py-12 g-px-25 mb-0" type="submit" role="button" onclick="sendEmail()">Send message</button>
                 </div>
               </div>
 
@@ -402,9 +402,10 @@
           </div>
         </div>
 
-        <div class="text-center g-py-70">
-          <a class="d-block g-width-140 mx-auto g-mb-30" href="/">
-            <img class="img-fluid" src="assets/img/js-logo-dark.png" alt="Image description">
+        <div class="g-theme-bg-blue-dark-v1 text-center g-py-15">
+          <hr class = g-bg-white>
+          <a class="d-block g-width-140 mx-auto g-mb-20" href="/">
+            <img class="img-fluid" src="assets/img/js-logo.png" alt="Image description">
           </a>
 
           <ul class="list-inline d-inline-block mb-0">
@@ -458,6 +459,9 @@
 
     <!-- JS Plugins Init. -->
     <script>
+      function sendEmail(){
+        alert("Not Yet Functioning");
+      }
       $(document).on('ready', function () {
         // initialization of carousel
         $.HSCore.components.HSCarousel.init('.js-carousel');
