@@ -1,63 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Portfolio-2020</title>
-</head> 
-<body id="bg-img">
-    <!-- <div class="overlay"></div> -->
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
+  <head>
+    <!-- Title -->
+    <title>My Portfolio | Jonard Siena - 2020</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:300,400,500,700,900" rel="stylesheet">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+
+    <!-- CSS Template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+    <main>
+      <!-- Header v1 -->
+      <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance"
+              data-header-fix-moment="100">
+        <div class="dark-theme u-header__section g-bg-black-opacity-0_4 g-transition-0_3 g-py-8 g-py-17--md"
+             data-header-fix-moment-exclude="dark-theme g-bg-black-opacity-0_4 g-py-17--md"
+             data-header-fix-moment-classes="light-theme u-theme-shadow-v1 g-bg-white g-py-10--md">
+          <nav class="navbar navbar-expand-lg p-0 g-px-15">
+            <div class="container g-pos-rel">
+              <a href="/" class="g-hidden-lg-up navbar-brand mr-0">
+                <img class="d-block g-width-140 g-width-160--md" src="assets/img/js-logo.png" alt="Image Description"
+                     data-header-fix-moment-exclude="d-block"
+                     data-header-fix-moment-classes="d-none">
+
+                <img class="d-none g-width-140 g-width-160--md" src="assets/img/js-logo-dark.png" alt="Image Description"
+                     data-header-fix-moment-exclude="d-none"
+                     data-header-fix-moment-classes="d-block">
+              </a>
+
+              <!-- Navigation -->
+              <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar" data-mobile-scroll-hide="true">
+                <ul class="js-scroll-nav navbar-nav align-items-lg-center text-uppercase g-font-weight-700 g-letter-spacing-1 g-font-size-12 g-pt-20 g-pt-0--lg mx-auto"
+                    data-splitted-breakpoint="992">
+                  <li class="nav-item g-mr-30--lg g-mb-7 g-mb-0--lg active">
+                    <a href="#home" class="nav-link p-0">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                    <a href="#aboutMe" class="nav-link p-0">About Me</a>
+                  </li>
+                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                    <a href="#services" class="nav-link p-0">Services</a>
+                  </li>
+
+                  <!-- Logo -->
+                  <li class="g-hidden-lg-down nav-logo-item g-mx-15--lg">
+                    <a href="/" class="js-go-to navbar-brand mr-0"
+                       data-type="static">
+                      <img class="d-block g-width-140 g-width-160--md" src="assets/img/js-logo.png" alt="Image Description"
+                           data-header-fix-moment-exclude="d-block"
+                           data-header-fix-moment-classes="d-none">
+
+                      <img class="d-none g-width-140 g-width-160--md" src="assets/img/js-logo-dark.png" alt="Image Description"
+                           data-header-fix-moment-exclude="d-none"
+                           data-header-fix-moment-classes="d-block">
+                    </a>
+                  </li>
+                  <!-- End Logo -->
+
+                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                    <a href="#portfolio" class="nav-link p-0">Portfolio</a>
+                  </li>
+                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                    <a href="#contactMe" class="nav-link p-0">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Navigation -->
+
+              <!-- Responsive Toggle Button -->
+              <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0" type="button"
+                      aria-label="Toggle navigation"
+                      aria-expanded="false"
+                      aria-controls="navBar"
+                      data-toggle="collapse"
+                      data-target="#navBar">
+                <span class="hamburger hamburger--slider">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </span>
+              </button>
+              <!-- End Responsive Toggle Button -->
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- End Header v1 -->
+
+      <!-- Section Content -->
+      <section id="home" class="u-bg-overlay g-pos-rel g-theme-bg-blue-dark-v1-opacity-0_8--after">
+        <div class="js-carousel"
+             data-autoplay="true"
+             data-infinite="true"
+             data-fade="true"
+             data-speed="5000">
+          <div class="js-slide g-bg-img-hero g-height-100vh" style="background-image: url(assets/img/bg.jpg);"></div>
         </div>
 
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
+        <div class="u-bg-overlay__inner g-absolute-centered w-100">
+          <div class="container text-center g-max-width-750">
+            <div class="text-uppercase u-heading-v2-4--bottom u-promo-title g-brd-primary">
+              <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-font-weight-400 g-color-white g-mb-25">Need someone to build your Website
+              </h3>
+              <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-3 g-font-size-75 g-color-white mb-0">Web Developer</h2>
             </div>
-            <ul class="menu-nav">
-              <li class="nav-item current"> 
-                <a href="index.html" class="nav-link">
-                    Home
-                </a>       
-              </li>
-              <li class="nav-item"> 
-                <a href="about.html" class="nav-link">
-                    About Me
-                </a>       
-              </li>
-              <li class="nav-item"> 
-                <a href="work.html" class="nav-link">
-                    My Work
-                </a>       
-              </li>
-              <li class="nav-item"> 
-                <a href="contact.html" class="nav-link">
-                    How To Reach Me
-                </a>       
-              </li>  
-            </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Content -->
 
-    <main id="home">
-        <h1 class="lg-heading">
-           Jonard <span class="text-secondary">Siena</span>
-        </h1>
-        <h2>
-            Web Developer,Web Designer & Programmer
-        </h2>
+      <!-- Section Content -->
+      <section id="aboutMe" class="g-pt-100 g-pb-100--md">
+        <div class="container text-center g-max-width-750 g-mb-70">
+          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+            <!-- <h3 class="h3 g-letter-spacing-5 g-font-size-12 g-font-weight-400 g-color-primary g-mb-25">What we offer</h3> -->
+            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-size-30 g-font-size-40--md mb-0">About Me</h2>
+          </div>
+        </div>
 
-        <a href="work.html">
-            <button class="button-two"><span>View Portfolio</span></button>
-        </a>
+        <div class="container px-0">
+          <figure class="row">
+            <!-- Figure Image -->
+            <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 g-mb-30">
+              <img class="w-100" src="assets/img/portrait.jpg" alt="Image Description">
+            </div>
+            <!-- End Figure Image -->
+    
+            <!-- Figure Body -->
+            <div class="col-lg-8">
+              <div class="d-flex justify-content-between g-mb-10">
+                <div class="g-mb-20">
+                  <h4 class="h5 g-mb-5">Jonard Siena</h4>
+                  <em class="d-block g-font-style-normal g-font-size-default text-uppercase g-color-primary">Web Developer/Designer</em>
+                </div>
+              </div>
+    
+              <!-- Figure Info -->
+              <div class="g-mb-50">
+                <p>I have 3 years experience as a web designer and web devloper. I am an effecient and fast worker. I pay attention to details and deliver quality service.</p>
+                <p>My Career Object is to obtain a position as a Web Developer/Designer in a challeging environment that will enable me to use my eductional background,experience and utilizes team-work effort for researching,learning and developing new high-tech products.</p>
+              </div>
+              <!-- End Info -->
+    
+              <div class="row">
+                <div class="col-sm-6">
+                  <!-- Progress Bar v2 -->
+                  <h4 class="h6 g-mb-5">Web Design - 80%</h4>
+                  <div class="js-hr-progress-bar progress rounded-0 g-height-4 mb-5">
+                    <div class="js-hr-progress-bar-indicator progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <!-- End Progress Bar v2 -->
+    
+                  <!-- Progress Bar v2 -->
+                  <h4 class="h6 g-mb-5">PHP/MYSQL - 70%</h4>
+                  <div class="js-hr-progress-bar progress rounded-0 g-height-4 mb-5">
+                    <div class="js-hr-progress-bar-indicator progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <!-- End Progress Bar v2 -->
+                </div>
+    
+                <div class="col-sm-6">
+                  <!-- Progress Bar v2 -->
+                  <h4 class="h6 g-mb-5">Javascript/jQuery - 60%</h4>
+                  <div class="js-hr-progress-bar progress rounded-0 g-height-4 mb-5">
+                    <div class="js-hr-progress-bar-indicator progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <!-- End Progress Bar v2 -->
+    
+                  <!-- Progress Bar v2 -->
+                  <h4 class="h6 g-mb-5">Bootstrap - 80%</h4>
+                  <div class="js-hr-progress-bar progress rounded-0 g-height-4 mb-5">
+                    <div class="js-hr-progress-bar-indicator progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <!-- End Progress Bar v2 -->
+                </div>
+              </div>
+            </div>
+            <!-- End Figure Body -->
+          </figure>
+          
+        </div>
+      </section>
+      <!-- End Section Content -->
 
+      <!-- Timeline -->
+      <section id="services" class="g-theme-bg-blue-dark-v1 g-py-100">
+        <div class="container text-center g-max-width-750 g-mb-70">
+          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
+            <!-- <h3 class="h3 g-letter-spacing-5 g-font-size-12 g-font-weight-400 g-color-primary g-mb-25">What we do</h3> -->
+            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-size-30 g-font-size-40--md g-color-white mb-0">Services I Offer</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 g-mb-30">
+              <!-- Icon Blocks -->
+              <div class="g-brd-around--md g-brd-gray-light-v4 text-center g-pa-10 g-px-30--lg g-py-40--lg">
+                <span class="d-block g-color-gray-dark-v4 g-font-size-40 g-mb-15">
+                  <i class="icon-education-087 u-line-icon-pro"></i>
+                </span>
+                <h3 class="h5 g-color-white g-mb-10">Web Design</h3>
+                <!-- <p class="g-color-gray-dark-v4">We strive to embrace and drive change in our industry which allows us to keep our clients relevant and ready to adapt.</p> -->
+                <div class="d-inline-block g-width-40 g-brd-bottom g-brd-gray-dark-v5 g-my-15"></div>
+                <ul class="list-unstyled g-px-30 g-mb-0">
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">Responsive Web Desgin</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">Landing Page</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">Admin Dashbord</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">Login &amp; Registration Form</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">E-commerce, Portfolio and blog design</li>
+                  <li class="g-py-8 g-color-white">One Page(with multiple section)</li>
+                </ul>
+              </div>
+              <!-- End Icon Blocks -->
+            </div>
+            <div class="col-md-6 g-mb-30">
+              <!-- Icon Blocks -->
+              <div class="g-brd-around--md g-brd-gray-light-v4 text-center g-pa-10 g-px-30--lg g-py-40--lg">
+                <span class="d-block g-color-gray-dark-v4 g-font-size-40 g-mb-15">
+                  <i class="icon-finance-009 u-line-icon-pro"></i>
+                </span>
+                <h3 class="h5 g-color-white g-mb-10">Web Development</h3>
+                <!-- <p class="g-color-gray-dark-v4">We strive to embrace and drive change in our industry which allows us to keep our clients relevant and ready to adapt.</p> -->
+                <div class="d-inline-block g-width-40 g-brd-bottom g-brd-gray-dark-v5 g-my-15"></div>
+                <ul class="list-unstyled g-px-30 g-mb-0">
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">HTML5 &amp; CSS3</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">JAVASCRIPT</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">JQUERY</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">BOOTSTRAP4</li>
+                  <li class="g-brd-bottom g-brd-gray-light-v3 g-py-10 g-color-white">PHP</li>
+                  <li class="g-py-8 g-color-white">MYSQL</li>
+                </ul>
+              </div>
+              <!-- End Icon Blocks -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Timeline -->
+
+      <!-- Section Content -->
+      <section id="portfolio" class="g-pt-100 g-pb-100--md">
+        <div class="container text-center g-max-width-750 g-mb-70">
+          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+            <!-- <h3 class="h3 g-letter-spacing-5 g-font-size-12 g-font-weight-400 g-color-primary g-mb-25">Our works</h3> -->
+            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-size-30 g-font-size-40--md mb-0">My Works</h2>
+          </div>
+        </div>
+
+        <div class="container-fluid px-0">
+          <div class="row no-gutters">
+            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+              <img class="img-fluid w-100" src="assets/img/projects/project6.jpg" alt="Image Description">
+
+              <div class="text-center text-uppercase g-pa-30">
+                <a href="https://drive.google.com/drive/folders/1MXoaRSU8y6FywPKJAtrcI92hBe-ILcvr">
+                  <h4 class="g-letter-spacing-5 g-font-size-11 g-font-weight-400 g-color-gray-dark-v5 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Parking</h4>
+                  <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Web Development/Design</h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+              <img class="img-fluid w-100" src="assets/img/projects/project2.jpg" alt="Image Description">
+
+              <div class="text-center text-uppercase g-pa-30">
+                <a href="https://drive.google.com/drive/folders/1qbOX7rXDU2S0XohXieUAJDb9MqJDEjhk">
+                  <h4 class="g-letter-spacing-5 g-font-size-11 g-font-weight-400 g-color-gray-dark-v5 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">E-commerce Design</h4>
+                  <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Web Development/Design</h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+              <img class="img-fluid w-100" src="assets/img/projects/project5.jpg" alt="Image Description">
+
+              <div class="text-center text-uppercase g-pa-30">
+                <a href="https://drive.google.com/drive/u/0/folders/1SKmOLulZ2C7nBXl-IHaNxxddeTdKr0Dh">
+                  <h4 class="g-letter-spacing-5 g-font-size-11 g-font-weight-400 g-color-gray-dark-v5 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Student Portal</h4>
+                  <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Web Development/Design</h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+              <img class="img-fluid w-100" src="assets/img/projects/project4.jpg" alt="Image Description">
+
+              <div class="text-center text-uppercase g-pa-30">
+                <a href="https://drive.google.com/drive/folders/1rFXODYFw7W1fEKKhUezI0nvM-J_TMwvA">
+                  <h4 class="g-letter-spacing-5 g-font-size-11 g-font-weight-400 g-color-gray-dark-v5 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Portfolio</h4>
+                  <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Web Development/Design</h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+              <img class="img-fluid w-100" src="assets/img/projects/project7.jpg" alt="Image Description">
+
+              <div class="text-center text-uppercase g-pa-30">
+                <a href="https://drive.google.com/drive/u/0/folders/1-wLlbm7aYRAzutubs_FhL6HRNMt9EeKE">
+                  <h4 class="g-letter-spacing-5 g-font-size-11 g-font-weight-400 g-color-gray-dark-v5 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Blog</h4>
+                  <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Web Development/Design</h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+              <img class="img-fluid w-100" src="assets/img/projects/project8.jpg" alt="Image Description">
+
+              <div class="text-center text-uppercase g-pa-30">
+                <a href="https://drive.google.com/drive/folders/1OgM7EtHVPKfnBAqX8lXz5kBIZr5yuBVN">
+                  <h4 class="g-letter-spacing-5 g-font-size-11 g-font-weight-400 g-color-gray-dark-v5 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Online School</h4>
+                  <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Web Development/Design</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Content -->
+
+      <!-- Footer -->
+      <footer>
+        <div id="contactMe" class="g-py-80">
+          <div class="container">
+            <div class="container text-center g-max-width-750 g-mb-70">
+              <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                <!-- <h3 class="h3 g-letter-spacing-5 g-font-size-12 g-font-weight-400 g-color-primary g-mb-25">Contact me</h3> -->
+                <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-size-30 g-font-size-40--md mb-0">contact Me</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-9 g-mb-25 g-mb-0--md">
+                <div class="row">
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_1" class="form-control h-100 g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="text" placeholder="Your name">
+                  </div>
+
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_2" class="form-control h-100 g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="tel" placeholder="Your phone">
+                  </div>
+
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_3" class="form-control h-100 g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="email" placeholder="Email *">
+                  </div>
+
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_4" class="form-control h-100 g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="text" placeholder="Subject">
+                  </div>
+
+                  <div class="col-md-12 form-group g-mb-30">
+                    <textarea id="inputGroup1_5" class="form-control g-resize-none g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" rows="4" placeholder="Message"></textarea>
+                  </div>
+                </div>
+
+                <div class="text-center">
+                  <button class="btn u-btn-primary btn-md text-uppercase g-line-height-1 g-font-weight-700 g-font-size-11 rounded-0 g-py-12 g-px-25 mb-0" type="submit" role="button">Send message</button>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <address class="row text-center">
+                  <div class="col-sm-4 col-md-12 g-mb-30">
+                    <i class="icon-directions icon d-inline-block g-font-size-20 g-color-primary g-mb-7"></i>
+                    <h3 class="text-uppercase g-font-size-12 g-color-gray-dark-v5 g-font-weight-400 g-mb-5">Address</h3>
+                    <strong class="g-font-size-14 g-color-black">Baguio City , Philippines</strong>
+                  </div>
+
+                  <div class="col-sm-4 col-md-12 g-mb-30">
+                    <i class="icon-call-in icon d-inline-block g-font-size-20 g-color-primary g-mb-7"></i>
+                    <h3 class="text-uppercase g-font-size-12 g-color-gray-dark-v5 g-font-weight-400g-mb-5">Phone number</h3>
+                    <strong class="g-font-size-14 g-color-black">+63998236167</strong>
+                  </div>
+
+                  <div class="col-sm-4 col-md-12">
+                    <i class="icon-envelope-open icon d-inline-block g-font-size-20 g-color-primary g-mb-7"></i>
+                    <h3 class="text-uppercase g-font-size-12 g-color-gray-dark-v5 g-font-weight-400 g-mb-5">Email</h3>
+                    <a class="g-color-black g-color-black--hover" href="sienajonard15@gmail.com"><strong class="g-font-size-14">sienajonard15@gmail.com</strong></a>
+                  </div>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google (Map) [custom] -->
+        <!-- <div class="g-pos-rel g-height-400">
+          <div id="gMap7" class="js-g-map g-pos-abs w-100 h-100"
+               data-type="custom"
+               data-lat="40.674"
+               data-lng="-73.946"
+               data-zoom="12"
+               data-title="Architecture"
+               data-styles='[
+                 ["", "", [{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]],
+                 ["", "labels", [{"visibility":"on"}]],
+                 ["road.highway", "", [{"color":"#cc0033"}]],
+                 ["water", "", [{"color":"#f7f4f4"}]]
+               ]'
+               data-pin="true"
+               data-pin-icon="assets/img/pin.png"></div> -->
+        </div>
+        <!-- End Google (Map) [custom] -->
+
+        <div class="text-center g-color-gray-dark-v5 g-theme-bg-blue-dark-v1 g-py-70">
+          <a class="d-block g-width-140 mx-auto g-mb-30" href="/">
+            <img class="img-fluid" src="assets/img/js-logo.png" alt="Image description">
+          </a>
+
+          <ul class="list-inline d-inline-block mb-0">
+            <li class="list-inline-item g-mr-10">
+              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-gray-dark-v5 g-color-white--hover g-theme-bg-blue-dark-v2 g-bg-primary--hover g-transition-0_2 g-transition--ease-in" href="https://www.facebook.com/jonard.siena"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-gray-dark-v5 g-color-white--hover g-theme-bg-blue-dark-v2 g-bg-primary--hover g-transition-0_2 g-transition--ease-in" href="https://www.linkedin.com/in/jonard-siena15/"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-gray-dark-v5 g-color-white--hover g-theme-bg-blue-dark-v2 g-bg-primary--hover g-transition-0_2 g-transition--ease-in" href="https://github.com/jonard15"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- End Footer -->
+
+      <a class="js-go-to u-go-to-v1" href="#"
+         data-type="fixed"
+         data-position='{
+           "bottom": 15,
+           "right": 15
+         }'
+         data-offset-top="400"
+         data-compensation="#js-header"
+         data-show-effect="zoomIn">
+        <i class="hs-icon hs-icon-arrow-top"></i>
+      </a>
     </main>
-    <script src="js/main.js"></script>
-</body>
+
+    <!-- JS Global Compulsory -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/popper.js/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="assets/vendor/appear.js"></script>
+    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="assets/vendor/gmaps/gmaps.min.js"></script>
+
+    <!-- JS Unify -->
+    <script src="assets/js/hs.core.js"></script>
+    <script src="assets/js/components/hs.header.js"></script>
+    <script src="assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="assets/js/components/hs.scroll-nav.js"></script>
+    <script src="assets/js/components/hs.tabs.js"></script>
+    <script src="assets/js/components/hs.carousel.js"></script>
+    <script src="assets/js/components/gmap/hs.map.js"></script>
+    <script src="assets/js/components/hs.go-to.js"></script>
+
+    <!-- JS Customization -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      // initialization of google map
+      function initMap() {
+        $.HSCore.components.HSGMap.init('.js-g-map');
+      }
+
+      $(document).on('ready', function () {
+        // initialization of carousel
+        $.HSCore.components.HSCarousel.init('.js-carousel');
+
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+        // initialization of tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+        // initialization of go to section
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+
+        $('#processes [role="tablist"] .nav-link').on('click', function () {
+          setTimeout(function () {
+            $('#processesTabs .js-carousel').slick('setPosition');
+          }, 200);
+        });
+      });
+
+      $(window).on('load', function() {
+        // initialization of HSScrollNav
+        $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
+          duration: 700
+        });
+      });
+
+      $(window).on('resize', function () {
+        setTimeout(function () {
+          $.HSCore.components.HSTabs.init('[role="tablist"]');
+        }, 200);
+      });
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async></script>
+  </body>
 </html>
