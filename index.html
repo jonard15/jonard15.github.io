@@ -456,6 +456,7 @@
     <script src="assets/js/components/hs.carousel.js"></script>
     <script src="assets/js/components/gmap/hs.map.js"></script>
     <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="assets/js/components/hs.progress-bar.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>
@@ -487,6 +488,12 @@
         // initialization of HSScrollNav
         $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
           duration: 700
+        });
+
+        // initialization of horizontal progress bars
+        var horizontalProgressBars = $.HSCore.components.HSProgressBar.init('.js-hr-progress-bar', {
+          direction: 'horizontal',
+          indicatorSelector: '.js-hr-progress-bar-indicator'
         });
       });
 
